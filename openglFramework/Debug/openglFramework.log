@@ -1,0 +1,46 @@
+﻿生成启动时间为 2017/1/8 13:53:01。
+     1>项目“E:\opengl\openglFramework\openglFramework\openglFramework.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\opengl\openglFramework\external\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Framework\Shader\ShaderProgram.cpp ..\Framework\Shader\Texture.cpp ..\Framework\node\CubeBoxNode.cpp ..\Framework\node\TriangleNode.cpp
+         TriangleNode.cpp
+     1>e:\opengl\openglframework\framework\shader\texture.h(7): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\opengl\openglframework\framework\shader\texture.h(8): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         CubeBoxNode.cpp
+     1>e:\opengl\openglframework\framework\shader\texture.h(7): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\opengl\openglframework\framework\shader\texture.h(8): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\opengl\openglframework\framework\director.h(51): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>e:\opengl\openglframework\framework\director.h(52): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         Texture.cpp
+     1>e:\opengl\openglframework\framework\shader\texture.h(7): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\opengl\openglframework\framework\shader\texture.h(8): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         ShaderProgram.cpp
+     1>e:\opengl\openglframework\framework\shader\texture.h(7): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\opengl\openglframework\framework\shader\texture.h(8): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\opengl\openglframework\framework\director.h(51): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>e:\opengl\openglframework\framework\director.h(52): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\opengl\openglFramework\Debug\openglFramework.exe" /INCREMENTAL /NOLOGO glew32.lib glfw3.lib opengl32.lib FreeImage.lib assimp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\opengl\openglFramework\Debug\openglFramework.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\opengl\openglFramework\Debug\openglFramework.lib" /MACHINE:X86 Debug\TextureManager.obj
+         Debug\Application.obj
+         Debug\CameraView.obj
+         Debug\Director.obj
+         Debug\CubeBoxNode.obj
+         Debug\FboNode.obj
+         Debug\ImageNode.obj
+         Debug\LightNode.obj
+         Debug\Model3dNode.obj
+         Debug\OpenglNode.obj
+         Debug\RectangleNode.obj
+         Debug\SkyBox.obj
+         Debug\TriangleNode.obj
+         Debug\ShaderProgram.obj
+         Debug\Shader.obj
+         Debug\Texture.obj
+         Debug\App.obj
+         Debug\main.obj
+         openglFramework.vcxproj -> E:\opengl\openglFramework\Debug\openglFramework.exe
+     1>已完成生成项目“E:\opengl\openglFramework\openglFramework\openglFramework.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.46

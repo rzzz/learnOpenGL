@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d82b2dea-4835-4fc4-a142-73d7c91181b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{b7d55c0f-e3cb-4a39-8306-d4740ec30676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\include">
+      <UniqueIdentifier>{0e599222-e0bc-4641-8d5b-276619aefcc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\include\GL">
+      <UniqueIdentifier>{85e18b2a-aa41-4367-a2a1-8f6364f96214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\include\GLFW">
+      <UniqueIdentifier>{cc5e4ac0-1b33-4e63-a39d-a47d15c3441e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Framework">
+      <UniqueIdentifier>{2cd82609-fa64-43d2-9ba6-1a309cdf75dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Framework\Shader">
+      <UniqueIdentifier>{6d7cce56-0cfb-4327-b3b9-6ecb3c10122b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Framework\Shader\shaders">
+      <UniqueIdentifier>{977cf9f9-8c08-4b4f-93ee-6df09c7a85b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Framework\node">
+      <UniqueIdentifier>{80406acd-50d0-4cc6-ad8b-603f63cbd99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\include\FreeImage">
+      <UniqueIdentifier>{647f7c80-93a8-472c-aea8-45df5b0a6f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\include\glm">
+      <UniqueIdentifier>{15a9546e-f28e-4477-95fe-5f174875abad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\include\assimp">
+      <UniqueIdentifier>{578a6231-1686-41c0-8635-970ce685ee1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\external\include\GL\glew.h">
+      <Filter>external\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\GL\glxew.h">
+      <Filter>external\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\GL\wglew.h">
+      <Filter>external\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\GLFW\glfw3.h">
+      <Filter>external\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\GLFW\glfw3native.h">
+      <Filter>external\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\Director.h">
+      <Filter>src\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\Shader\ShaderProgram.h">
+      <Filter>src\Framework\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\Shader\shaders\Shader.h">
+      <Filter>src\Framework\Shader\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\node\OpenglNode.h">
+      <Filter>src\Framework\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\node\TriangleNode.h">
+      <Filter>src\Framework\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\Application.h">
+      <Filter>src\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\node\RectangleNode.h">
+      <Filter>src\Framework\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\FreeImage\TextureManager.h">
+      <Filter>external\include\FreeImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\FreeImage\FreeImage.h">
+      <Filter>external\include\FreeImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\node\ImageNode.h">
+      <Filter>src\Framework\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\node\CubeBoxNode.h">
+      <Filter>src\Framework\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\Shader\Texture.h">
+      <Filter>src\Framework\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\CameraView.h">
+      <Filter>src\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\node\LightNode.h">
+      <Filter>src\Framework\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\node\Model3dNode.h">
+      <Filter>src\Framework\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\SomeTip.h">
+      <Filter>src\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\node\FboNode.h">
+      <Filter>src\Framework\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\node\SkyBox.h">
+      <Filter>src\Framework\node</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\Director.cpp">
+      <Filter>src\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\Shader\ShaderProgram.cpp">
+      <Filter>src\Framework\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\Shader\shaders\Shader.cpp">
+      <Filter>src\Framework\Shader\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\node\OpenglNode.cpp">
+      <Filter>src\Framework\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\node\TriangleNode.cpp">
+      <Filter>src\Framework\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\Application.cpp">
+      <Filter>src\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\node\RectangleNode.cpp">
+      <Filter>src\Framework\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\FreeImage\TextureManager.cpp">
+      <Filter>external\include\FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\node\ImageNode.cpp">
+      <Filter>src\Framework\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\node\CubeBoxNode.cpp">
+      <Filter>src\Framework\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\Shader\Texture.cpp">
+      <Filter>src\Framework\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\CameraView.cpp">
+      <Filter>src\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\node\LightNode.cpp">
+      <Filter>src\Framework\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\node\Model3dNode.cpp">
+      <Filter>src\Framework\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\node\FboNode.cpp">
+      <Filter>src\Framework\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\node\SkyBox.cpp">
+      <Filter>src\Framework\node</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\Shader\shaders\Position_Color.vs">
+      <Filter>src\Framework\Shader\shaders</Filter>
+    </None>
+    <None Include="..\Framework\Shader\shaders\Position_Color.frag">
+      <Filter>src\Framework\Shader\shaders</Filter>
+    </None>
+    <None Include="..\Framework\Shader\shaders\Position_Color_Texture.vs">
+      <Filter>src\Framework\Shader\shaders</Filter>
+    </None>
+    <None Include="..\Framework\Shader\shaders\Position_Color_Texture.frag">
+      <Filter>src\Framework\Shader\shaders</Filter>
+    </None>
+    <None Include="..\Framework\Shader\shaders\Position_Texture.frag">
+      <Filter>src\Framework\Shader\shaders</Filter>
+    </None>
+    <None Include="..\Framework\Shader\shaders\Position_Texture.vs">
+      <Filter>src\Framework\Shader\shaders</Filter>
+    </None>
+    <None Include="..\Framework\Shader\shaders\Model3d_Shader.frag">
+      <Filter>src\Framework\Shader\shaders</Filter>
+    </None>
+    <None Include="..\Framework\Shader\shaders\Model3d_Shader.vs">
+      <Filter>src\Framework\Shader\shaders</Filter>
+    </None>
+    <None Include="..\Framework\Shader\shaders\SkyBox_Shader.frag">
+      <Filter>src\Framework\Shader\shaders</Filter>
+    </None>
+    <None Include="..\Framework\Shader\shaders\SkyBox_Shader.vs">
+      <Filter>src\Framework\Shader\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
