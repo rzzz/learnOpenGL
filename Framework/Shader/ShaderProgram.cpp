@@ -45,9 +45,6 @@ namespace opengl_framewordk
 		auto fShaderCode = fragmentCode.c_str();
 
 		initWithSorce(vShaderCode, fShaderCode);
-
-		//delete vShaderCode;	//can not do that
-		//delete fShaderCode;
 	}
 
 	ShaderProgram::ShaderProgram(const char* vertexShaderSource, const char* fragmentShaderSource, int nouser)
@@ -122,8 +119,8 @@ namespace opengl_framewordk
 
 	void ShaderProgram::updateBultinProgram()
 	{
-		//…Ë÷√attribute
-		//…Ë÷√uniform
+		//√â√®√ñ√Éattribute
+		//√â√®√ñ√Éuniform
 	}
 
 	void ShaderProgram::use()
