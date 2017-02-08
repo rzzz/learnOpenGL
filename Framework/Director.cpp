@@ -161,7 +161,7 @@ namespace opengl_framewordk
 		glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 
 		// Create a GLFWwindow object that we can use for GLFW's functions
-		window = glfwCreateWindow(winWidth + 2, winHeight + 2, winTitle.c_str(), nullptr, nullptr);		//winTitleµÄcstr //stringµÄc_str()·µ»ØµÄÖ¸ÕëÊÇÓÉstring¹ÜÀíµÄ£¬Òò´ËËüµÄÉúÃüÆÚÊÇstring¶ÔÏóµÄÉúÃüÆÚ
+		window = glfwCreateWindow(winWidth + 2, winHeight + 2, winTitle.c_str(), nullptr, nullptr);
 		if (window == nullptr)
 		{
 			std::cout << "Failed to create GLFW window" << std::endl;
@@ -233,7 +233,7 @@ namespace opengl_framewordk
 		while (!glfwWindowShouldClose(window))
 		{
 			// Set frame time
-			GLfloat currentFrame = glfwGetTime();		//ÔËĞĞµÄÃëÊı
+			GLfloat currentFrame = glfwGetTime();		//è¿è¡Œçš„ç§’æ•°
 			thisTimeDt = currentFrame - lastFrame;
 			lastFrame = currentFrame;
 
