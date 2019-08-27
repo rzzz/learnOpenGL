@@ -1,0 +1,11 @@
+.svn/
+
+# just care class and vs-sln
+
+# nf
+app/
+
+# proj.win32
+*.sdf
+*.VC.db
+*.VC.opendb
