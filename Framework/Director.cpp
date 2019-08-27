@@ -7,7 +7,7 @@
 
 using namespace std;
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	static bool keys[1024];
 	GLfloat lastX = 400, lastY = 400;
@@ -107,8 +107,12 @@ namespace opengl_framewordk
 		{
 			delete *itr;
 		}
+		nodes.clear();
 
-		if (fbo) delete fbo;
+		if (fbo)
+		{
+			delete fbo;
+		}
 
 		ShaderProgramCache::destroyInstacne();
 	}
@@ -161,7 +165,7 @@ namespace opengl_framewordk
 		glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 
 		// Create a GLFWwindow object that we can use for GLFW's functions
-		window = glfwCreateWindow(winWidth + 2, winHeight + 2, winTitle.c_str(), nullptr, nullptr);
+		window = glfwCreateWindow(winWidth + 2, winHeight + 2, winTitle.c_str(), nullptr, nullptr);		//winTitleµÄcstr //stringµÄc_str()·µ»ØµÄÖ¸ÕëÊÇÓÉstring¹ÜÀíµÄ£¬Òò´ËËüµÄÉúÃüÆÚÊÇstring¶ÔÏóµÄÉúÃüÆÚ
 		if (window == nullptr)
 		{
 			std::cout << "Failed to create GLFW window" << std::endl;
@@ -233,7 +237,7 @@ namespace opengl_framewordk
 		while (!glfwWindowShouldClose(window))
 		{
 			// Set frame time
-			GLfloat currentFrame = glfwGetTime();		//è¿è¡Œçš„ç§’æ•°
+			GLfloat currentFrame = glfwGetTime();		//ÔËĞĞµÄÃëÊı
 			thisTimeDt = currentFrame - lastFrame;
 			lastFrame = currentFrame;
 

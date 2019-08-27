@@ -8,8 +8,9 @@
 #include <iostream>
 using namespace std;
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
+
 	ShaderProgram::ShaderProgram(const string &vertexSourcePath, const string &fragmentSourcePath)
 	{
 		// 1. Retrieve the vertex/fragment source code from filePath
@@ -119,8 +120,8 @@ namespace opengl_framewordk
 
 	void ShaderProgram::updateBultinProgram()
 	{
-		//√â√®√ñ√Éattribute
-		//√â√®√ñ√Éuniform
+		//…Ë÷√attribute
+		//…Ë÷√uniform
 	}
 
 	void ShaderProgram::use()

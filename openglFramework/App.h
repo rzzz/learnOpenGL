@@ -1,6 +1,6 @@
 #include "../Framework/Application.h"
 
-class App : public opengl_framewordk::Application
+class App : public opengl_framework::Application
 {
 public:
 	App();

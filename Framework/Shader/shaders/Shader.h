@@ -1,7 +1,7 @@
 #ifndef __ShaderSrc_H__
 #define __ShaderSrc_H__
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	extern const char * srcPosition_Color_vert;
 	extern const char * srcPosition_Color_frag;

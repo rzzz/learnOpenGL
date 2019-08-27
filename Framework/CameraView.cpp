@@ -1,6 +1,6 @@
 #include "CameraView.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	// Constructor with vectors
 	CameraView::CameraView(glm::vec3 position, glm::vec3 up, GLfloat yaw, GLfloat pitch)

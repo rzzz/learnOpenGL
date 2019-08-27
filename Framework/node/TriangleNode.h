@@ -3,7 +3,7 @@
 
 #include "OpenglNode.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	//三角形，使用额外的两个vbo
 	class TriangleNode : public OpenglNode

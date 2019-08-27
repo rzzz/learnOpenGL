@@ -10,7 +10,7 @@
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	struct Vertex3d
 	{

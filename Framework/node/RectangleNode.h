@@ -3,7 +3,7 @@
 
 #include "OpenglNode.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	//矩形节点，使用额外的2个vbo
 	class RectangleNode : public OpenglNode

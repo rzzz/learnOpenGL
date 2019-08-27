@@ -7,7 +7,7 @@
 #include <map>;
 #include <string>;
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	//纹理，通过图片文件构造，提供本纹理绑定
 	class Texture

@@ -1,6 +1,6 @@
 #include "TriangleNode.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	TriangleNode::TriangleNode()
 	{

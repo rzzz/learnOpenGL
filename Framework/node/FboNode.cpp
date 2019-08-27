@@ -3,7 +3,7 @@
 #include "../Director.h"
 #include <iostream>
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	FboNode::FboNode()
 	{

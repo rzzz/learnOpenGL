@@ -1,6 +1,6 @@
 #include "OpenglNode.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	OpenglNode::OpenglNode()
 		: vertexCount(0), vertexPosition(nullptr), vertexColor(nullptr), vertexUV(nullptr), shader(nullptr), texture(nullptr), zOrder(0), vao(0)

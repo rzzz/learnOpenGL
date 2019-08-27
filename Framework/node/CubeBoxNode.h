@@ -3,7 +3,7 @@
 
 #include "OpenglNode.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	//盒子节点，使用额外的一个vbo
 	class CubeBoxNode : public OpenglNode

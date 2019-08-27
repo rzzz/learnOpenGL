@@ -3,7 +3,7 @@
 
 #include "OpenglNode.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	//图像节点，使用额外的3个vbo与一个ebo
 	class ImageNode : public OpenglNode

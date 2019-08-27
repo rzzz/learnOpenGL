@@ -3,7 +3,7 @@
 
 #include "OpenglNode.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	class LightNode : public OpenglNode
 	{

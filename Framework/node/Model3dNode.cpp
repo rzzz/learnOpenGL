@@ -5,7 +5,7 @@
 #include <sstream>
 using namespace std;
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	void Mesh3d::setupMesh()
 	{

@@ -3,7 +3,7 @@
 
 #include <windows.h>
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	//应用程序，子类实现onApplicationCreate，主循环run
 	class Application

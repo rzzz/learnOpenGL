@@ -8,7 +8,7 @@
 #include "../Framework/node/Model3dNode.h"
 #include "../Framework/node/FboNode.h"
 #include "../Framework/node/SkyBox.h"
-using namespace opengl_framewordk;
+using namespace opengl_framework;
 
 App::App()
 {

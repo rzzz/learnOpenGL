@@ -15,7 +15,7 @@
 #include "node\RectangleNode.h"
 #include "node\FboNode.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 #define lightPos glm::vec3(1.2f, 1.0f, 2.0f)
 #define lightColor glm::vec3(1.0f, 1.0f, 1.0f)

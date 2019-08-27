@@ -1,6 +1,6 @@
 #include "Shader.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	const char * srcPosition_Color_vert =
 #include "Position_Color.vs"

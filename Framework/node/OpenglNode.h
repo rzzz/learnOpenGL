@@ -4,7 +4,7 @@
 #include "../Shader/ShaderProgram.h"
 #include "../Shader/Texture.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 
 	//解除vao绑定，解除纹理绑定，使用其着色器

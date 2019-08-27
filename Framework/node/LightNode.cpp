@@ -2,7 +2,7 @@
 #include "FreeImage/TextureManager.h"
 #include "../Director.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	LightNode::LightNode()
 	{

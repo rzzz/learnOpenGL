@@ -11,7 +11,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	//着色器程序：从字符串构造，完成着色器编译；提供纹理传值，矩阵传值，统一MVP传递
 	class ShaderProgram

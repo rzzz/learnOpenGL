@@ -6,7 +6,7 @@
 #include <vector>
 using namespace std;
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	class SkyBox : public OpenglNode
 	{

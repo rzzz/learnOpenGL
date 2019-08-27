@@ -1,7 +1,7 @@
 #include "Application.h"
 #include "Director.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	Application::Application()
 	{

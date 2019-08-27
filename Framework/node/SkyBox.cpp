@@ -2,7 +2,7 @@
 #include "FreeImage/TextureManager.h"
 #include "../Director.h"
 
-namespace opengl_framewordk
+namespace opengl_framework
 {
 	SkyBox::SkyBox()
 	{
@@ -80,8 +80,8 @@ namespace opengl_framewordk
 		vector<const GLchar*> faces;
 		faces.push_back("img/skybox/right.jpg");
 		faces.push_back("img/skybox/left.jpg");
-		faces.push_back("img/skybox/top.jpg");
 		faces.push_back("img/skybox/bottom.jpg");
+		faces.push_back("img/skybox/top.jpg");
 		faces.push_back("img/skybox/back.jpg");
 		faces.push_back("img/skybox/front.jpg");
 		cubemapTexture = loadCubemap(faces);
